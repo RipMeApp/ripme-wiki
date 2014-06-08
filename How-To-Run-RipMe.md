@@ -2,6 +2,13 @@ Make sure you have Java installed. You can download / install it at this site: h
 
 The `ripme.jar` file is actually executable. Java will execute the `.jar` file similarly to how `.exe` files are executed. Usually double-clicking the `.jar` file executes the program.
 
+If double-clicking the `.jar` file does not open the program, you can right-click the file and select an `Open With...` option, then select the `Java` runtime application.
+
+If all else fails, you can run the program via command-line by navigating to the directory and executing
+```bash
+java -jar ripme.jar
+```
+
 Command Line Options
 --------------------
 ```
