@@ -169,6 +169,14 @@ Most rippers simply use the `AlbumRipper`'s method:
 
 The above will download the URL to the appropriate save directory, guessing the filename to save based on the `url` and the `index`.
 
+The `addURLToDownload()` method is *heavily* overloaded with lots of options.  
+Variants of this method allow you to:
+* Define the exact file name to save as,
+* The subdirectory to save to,
+* HTTP headers (such as cookies or referrers) that should be used while downloading the file
+
+Other rippers, as mentioned before, start a separate Thread to retrieve the full-size image from the provided URL. Your implementation may vary.
+
 ### Step 6: Test!
 
 RipMe **automatically detects new rippers** without any other code changes required.
