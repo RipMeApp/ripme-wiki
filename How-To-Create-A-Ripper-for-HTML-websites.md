@@ -159,7 +159,7 @@ Input: `URL`: One of the URLs returned by `getURLsFromPage()`
 Input: `index`: The *number* for this URL (whether it's the 1st image, 2nd image, etc).
 
 This is where your ripper *downloads* the image/file.  
-Most rippers simply use the `AlbumRipper`'s method:
+Most rippers simply use the `AlbumRipper`'s method `addURLToDownload()`:
 ```java
     @Override
     public void downloadURL(URL url, int index) {
@@ -167,7 +167,7 @@ Most rippers simply use the `AlbumRipper`'s method:
     }
 ```
 
-The above will download the URL to the appropriate save directory, guessing the filename to save based on the `url` and the `index`.
+The above will download the URL to the appropriate save directory, guessing the filename to save based on the `url` and a given prefix (`index`).
 
 The `addURLToDownload()` method is *heavily* overloaded with lots of options.  
 Variants of this method allow you to:
