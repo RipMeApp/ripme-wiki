@@ -132,7 +132,7 @@ Input: Jsoup `Document` retrieved in the `getFirstPage()` method (and optionally
 Returns: **List of URLs to be downloaded** or retrieved.
 
 This is where the URLs are *extracted* from the page Document.  
-Some rippers return a list of subpages to be ripped in separate threads (e.g. [`ImagevenueRipper.java](https://github.com/4pr0n/ripme/blob/master/src/main/java/com/rarchives/ripme/ripper/rippers/ImagevenueRipper.java#L67)
+Some rippers return a list of subpages to be ripped in separate threads (e.g. [`ImagevenueRipper.java`](https://github.com/4pr0n/ripme/blob/master/src/main/java/com/rarchives/ripme/ripper/rippers/ImagevenueRipper.java#L67))
 
 This is when CSS-Selectors come in handy. Say you wanted to grab every image that appears on the page:
 
@@ -141,7 +141,7 @@ This is when CSS-Selectors come in handy. Say you wanted to grab every image tha
     public List<String> getURLsFromPage(Document doc) {
         List<String> result = new ArrayList<String>();
         for (Element el : doc.select("img")) {
-            el.add(el.attr("src"));
+            result.add(el.attr("src"));
         }
         return result
     }
