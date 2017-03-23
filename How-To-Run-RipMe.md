@@ -19,3 +19,7 @@ Command Line Options
  -u,--url <arg>       URL of album to rip
  -w,--overwrite       Overwrite existing files
 ```
+
+## Docker
+
+[Docker](https://hub.docker.com/r/kastang/ripme) for deploying an environment suitable to run RipMe by [@JoshKastang](https://github.com/JoshKastang) ([#469](https://github.com/4pr0n/ripme/issues/469))
