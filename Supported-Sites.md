@@ -1,3 +1,4 @@
+It's not the most friendly to read, but the most comprehensive list of supported sites and functionality can be found in the `rippers` directory itself: https://github.com/4pr0n/ripme/tree/master/src/main/java/com/rarchives/ripme/ripper/rippers
 
 #### Supported sites + commits:
 
