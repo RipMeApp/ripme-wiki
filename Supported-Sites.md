@@ -46,6 +46,7 @@
 - `cheeby` - https://github.com/4pr0n/ripme/commit/562f224c2136391f1e9ecb044aaa84cdca8a04e7
 - `bcfakes` - https://github.com/4pr0n/ripme/commit/aa296ef72ee76f58dbe3160e29856ba568a4a274
 
+#### List from README
 
 * imgur
 * twitter
@@ -64,6 +65,31 @@
 * deviantart
 * xhamster
 * (more)
+
+#### Pending sites + examples (NSFW):
+- `getgonewild` - http://www.getgonewild.com/profile/rollmeup
+- `blogspot` - http://marcherryfashion.blogspot.com/
+- `pixiv` - http://www.pixiv.net/member.php?id=2136123
+- `facebook` - https://www.facebook.com/EmanueleFerrariPhotographer/photos_stream
+- `pinterest` - http://www.pinterest.com/
+- `lookbook` - http://lookbook.nu/mayowo
+- `4shared` - http://www.4shared.com/folder/pTUpT6wG/Heather.html
+- `behance` - https://www.behance.net/HS-nj
+- `dribbble` - https://dribbble.com/studioMUTI
+- `fetlife` - https://fetlife.com/users/2089769
+- `diverxity` - http://www.diverxity.com/users/953
+- `artician` - http://zionenciel.artician.com/
+- `studio-g` - http://studio-g.tistory.com/535
+- `fg-site` - http://www.fg-site.net/members/umeume/
+- `gelbooru` - http://gelbooru.com/index.php?page=post&s=list&tags=futa
+- `thefappening.sexy` - http://thefappening.sexy/albums/index.php?/category/126
+- `ipernity` - http://www.ipernity.com/doc/kimcums/album/676241
+- `punterplanet` - http://guide.punterplanet.com/escorts/featured/frontpage/amber-green_200.html
+- `rule34` - rule34.paheal.net
+- `photoblog.pl` - http://www.photoblog.pl/colordust/170020651/typical-girl.html
+- `megamodels.pl` - http://www.megamodels.pl/a-ya
+- `maxmodels.pl` - http://www.maxmodels.pl/modelka-agnes-z-garbledville.html
+- `flog.pl` - http://www.flog.pl/szukaj/akt
 
 See [#8](https://github.com/4pr0n/ripme/issues/8) for original updated list and requests.
 See [#502](https://github.com/4pr0n/ripme/issues/502) for newer requests.
