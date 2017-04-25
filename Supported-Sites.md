@@ -1,6 +1,6 @@
 
----
 #### Supported sites + commits:
+
 - `imgur` (album, userpages, subreddits) - https://github.com/4pr0n/ripme/commit/04ce12b546fe775101cc880cb072c3c284014626 https://github.com/4pr0n/ripme/commit/e904a7ee9798cd77515d9edf1768f05817a8ad13
 - `instagram` - https://github.com/4pr0n/ripme/commit/e2bb412d9f0e542abd8b28b8f723cd260685faab
 - `deviantart` - https://github.com/4pr0n/ripme/commit/b662b46a44a087af316953b10aee537397f2fa2a
@@ -65,7 +65,7 @@
 * xhamster
 * (more)
 
-* See [#8](https://github.com/4pr0n/ripme/issues/8) for original updated list and requests.
-* See [#502](https://github.com/4pr0n/ripme/issues/502) for newer requests.
+See [#8](https://github.com/4pr0n/ripme/issues/8) for original updated list and requests.
+See [#502](https://github.com/4pr0n/ripme/issues/502) for newer requests.
 
 This page will be updated soon to include the full list of supported sites.
