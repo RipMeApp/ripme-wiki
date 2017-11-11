@@ -9,6 +9,8 @@ If all else fails, you can run the program via command-line by navigating to the
 java -jar ripme.jar
 ```
 
+By default ripme will store all it's config and history files in the users config folder (LOCALAPPDATA/ripme for windows, ~/.config/ripme for linux, ~/Library/Application Support/ripme for MacOS). To over ride this behaviour and have ripme store all it's config and history files in the same folder as ripme.jar create a file named rip.properties in the same folder as the jar and then start ripme
+
 Command Line Options
 --------------------
 ```
