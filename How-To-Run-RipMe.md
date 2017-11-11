@@ -13,11 +13,19 @@ Command Line Options
 --------------------
 ```
 ﻿usage: java -jar ripme.jar [OPTIONS]
- -h,--help            Print the help
- -r,--rerip           Re-rip all ripped albums
- -t,--threads <arg>   Number of download threads per rip
- -u,--url <arg>       URL of album to rip
- -w,--overwrite       Overwrite existing files
+ -4,--skip404               Don't retry after a 404 (not found) error
+ -d,--saveorder             Save the order of images in album
+ -D,--nosaveorder           Don't save order of images
+ -f,--urls-file <arg>       Rip URLs from a file.
+ -h,--help                  Print the help
+ -l,--ripsdirectory <arg>   Rips Directory (Default: ./rips)
+ -n,--no-prop-file          Do not create properties file.
+ -r,--rerip                 Re-rip all ripped albums
+ -R,--rerip-selected        Re-rip all selected albums
+ -t,--threads <arg>         Number of download threads per rip
+ -u,--url <arg>             URL of album to rip
+ -v,--version               Show current version
+ -w,--overwrite             Overwrite existing files
 ```
 
 ## Docker
