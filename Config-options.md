@@ -11,6 +11,8 @@ download.save_order| bool | If true ripme will prefix each downloaded file with 
 
 auto.update        | bool | If true ripme will auto-update every time it's started
 
+tumblr.get_raw_image | bool | If true the tumblr ripper will download the image in the size it was uploaded in
+
 play.sound         | bool | If true ripme will play a sound every time a rip finishes
 
 download.show_popup| bool | TODO figure out what this is for
