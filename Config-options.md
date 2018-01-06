@@ -25,7 +25,9 @@ album_titles.save  | bool | Currently does nothing
 
 prefer.mp4         | bool | Prefer mp4 when downloading a video that has more than 1 format
 
-history.warn_before_delete | bool| If true ripme will prompt the user with a "Are you sure?" box when clearing ripmes download history
+history.warn_before_delete | bool | If true ripme will prompt the user with a "Are you sure?" box when clearing ripmes download history
+
+instagram.download_images_only | bool | If true the instagram ripper will skip videos and only download images
 
 download.timeout   | int  | File download timeout (in milliseconds)
 
