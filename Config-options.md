@@ -47,4 +47,7 @@ log.level          | String | The debug log level (Example: Log level: Debug)
 
 gw.api             | String | TODO figure out what this is for
 
+proxy.http         | String | HTTP Proxy (format [user:password]@host[:port]) WARNING: see https://stackoverflow.com/q/41505219 for HTTP Proxy with user/password
+
+proxy.socks        | String | SOCKS Proxy (format [user:password]@host[:port])
 
