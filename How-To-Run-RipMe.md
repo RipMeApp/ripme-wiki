@@ -15,6 +15,7 @@ Command Line Options
 --------------------
 ```
 ﻿usage: java -jar ripme.jar [OPTIONS]
+ -h,--help                  Print the help
  -4,--skip404               Don't retry after a 404 (not found) error
  -d,--saveorder             Save the order of images in album
  -D,--nosaveorder           Don't save order of images
@@ -28,6 +29,11 @@ Command Line Options
  -u,--url <arg>             URL of album to rip
  -v,--version               Show current version
  -w,--overwrite             Overwrite existing files
+ -s,--socks-server          Use socks server ([user:password]@host[:port])
+ -p,--proxy-server          Use HTTP Proxy server ([user:password]@host[:port])
+ -j,--update                Update ripme
+ -a,--append-to-folder      Append a string to the output folder name
+ -H,--history               Set the path of the history file. EX: -H /path/to/history.txt
 ```
 
 ## Docker
