@@ -194,3 +194,22 @@ String
 A comma separated list of tags which if present on a ehentai album will cause ripme to skip it
 
 Example: Adding "nhentai.blacklist.tags = one,two, three" will cause ripme to skip any ehentai album with the tags one, two or three
+
+### e621.cookies
+
+String
+
+A list of e621 cookies. Used for login (to disable global blacklist) or to bypass Cloudflare captcha protection (in combination with e621.useragent). See https://github.com/RipMeApp/ripme/issues/1604#issuecomment-611507949
+
+Example (login cookie): e621.cookies = remember=DfhEx27X0Ok5Y8T3D9NEvqqsEJKJ7Wp7ZYZT6Gp4W8cXMrmtnZRiyrvRDlNBqiWonHzaJccjAOVJq2F6DBNJZ8%2FmRwmo9neNPPUqKODHJ%2BE8N1UQvL0Fuued1gDjJX0ec
+Example (captcha bypass): e621.cookies = \_\_cfduid=d223ffab289db674e672307328be56a23f72;cf_clearance=ab76532094bc24424935dab1232b36420-9273251468ba524ec
+
+### e621.useragent
+
+String
+
+Used to bypass Cloudlare captcha.
+
+Useragent string of the browser you used to complete the captcha.
+
+Example: e621.useragent =  Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0 
